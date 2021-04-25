@@ -2,7 +2,7 @@
 # Description: Breeze theme for GTK+2.0
 
 gtk-color-scheme = "text_color:#fcfcfc"
-gtk-color-scheme = "base_color:#1b1e20"
+gtk-color-scheme = "base_color:#2F2F2F"
 gtk-color-scheme = "insensitive_base_color:#181b1d"
 gtk-color-scheme = "fg_color:#fcfcfc"
 gtk-color-scheme = "bg_color:#2a2e32"
