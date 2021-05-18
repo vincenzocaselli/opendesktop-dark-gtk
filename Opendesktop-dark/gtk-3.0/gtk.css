@@ -145,9 +145,9 @@ these are pretty self explicative */
 */
 @define-color theme_titlebar_background_opendesktop          #243041;
 @define-color theme_titlebar_foreground_opendesktop          #fcfcfc;
-@define-color theme_titlebar_background_light_opendesktop    #2a2e32;
+@define-color theme_titlebar_background_light_opendesktop    #243041;
 @define-color theme_titlebar_foreground_backdrop_opendesktop #a1a9b1;
-@define-color theme_titlebar_background_backdrop_opendesktop #2a2e32;
+@define-color theme_titlebar_background_backdrop_opendesktop #243041;
 @define-color theme_titlebar_foreground_insensitive_opendesktop rgba(229, 229, 229, 0.35);
 @define-color theme_titlebar_foreground_insensitive_backdrop_opendesktop rgba(144, 154, 163, 0.35);
 /*

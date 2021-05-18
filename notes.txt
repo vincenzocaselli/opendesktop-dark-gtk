@@ -1,0 +1,1 @@
+ln -s  /sda-linux/dev/dev-linux/kde-plasma-icon-themes/opendesktop-icons-project/opendesktop-dark-gtk/opendesktop-dark-gtk/Opendesktop-dark /home/vincenzo/.themes/OpenDesktop-dark
