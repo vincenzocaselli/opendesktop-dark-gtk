@@ -102,7 +102,7 @@ widgets main borders color insensitive backdrop */
 * Button Colors
 *
 */
-@define-color theme_button_background_normal_opendesktop #31363b;
+@define-color theme_button_background_normal_opendesktop #373e47;
 @define-color theme_button_decoration_hover_opendesktop  #5294E2;
 @define-color theme_button_decoration_focus_opendesktop  #5294E2;
 @define-color theme_button_foreground_normal_opendesktop #fcfcfc;
@@ -112,7 +112,7 @@ widgets main borders color insensitive backdrop */
 @define-color theme_button_decoration_focus_insensitive_opendesktop  rgba(37, 164, 230, 0.35);
 @define-color theme_button_foreground_insensitive_opendesktop        rgba(229, 229, 229, 0.35);
 @define-color theme_button_foreground_active_insensitive_opendesktop rgba(229, 229, 229, 0.35);
-@define-color theme_button_background_backdrop_opendesktop        #31363b;
+@define-color theme_button_background_backdrop_opendesktop        #373e47;
 @define-color theme_button_decoration_hover_backdrop_opendesktop  #5294E2;
 @define-color theme_button_decoration_focus_backdrop_opendesktop  #5294E2;
 @define-color theme_button_foreground_backdrop_opendesktop        #fcfcfc;
