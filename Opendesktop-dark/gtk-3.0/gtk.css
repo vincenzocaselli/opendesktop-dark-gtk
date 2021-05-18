@@ -9,10 +9,10 @@ text color for entries, views and content in general */
 @define-color theme_text_color_opendesktop #fcfcfc;
 /*
 widget base background color */
-@define-color theme_bg_color_opendesktop #2a2e32;
+@define-color theme_bg_color_opendesktop #383a3b;
 /*
 text widgets and the like base background color */
-@define-color theme_base_color_opendesktop #2F2F2F;
+@define-color theme_base_color_opendesktop #383a3b;
 /*
 view hover decoration color*/
 @define-color theme_view_hover_decoration_color_opendesktop #5294E2;
@@ -54,10 +54,10 @@ text color for entries, views and content in general on backdrop windows */
 @define-color theme_unfocused_text_color_opendesktop #fcfcfc;
 /*
 widget base background color on backdrop windows */
-@define-color theme_unfocused_bg_color_opendesktop #2a2e32;
+@define-color theme_unfocused_bg_color_opendesktop #383a3b;
 /*
 text widgets and the like base background color on backdrop windows */
-@define-color theme_unfocused_base_color_opendesktop #2F2F2F;
+@define-color theme_unfocused_base_color_opendesktop #383a3b;
 /*
 base background color of selections on backdrop windows, alt */
 @define-color theme_unfocused_selected_bg_color_alt_opendesktop #5294E2;
@@ -160,7 +160,7 @@ these are pretty self explicative */
 * Misc
 */
 @define-color print_paper_backdrop_opendesktop  white;
-@define-color content_view_bg_opendesktop #2F2F2F;
+@define-color content_view_bg_opendesktop #383a3b;
 /*
  * GTK API color re-defs
  */
