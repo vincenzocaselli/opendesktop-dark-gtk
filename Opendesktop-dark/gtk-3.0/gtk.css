@@ -38982,7 +38982,7 @@ window.solid-csd paned.titlebar headerbar {
   border-radius: 0; }
 
 window headerbar.titlebar {
-  min-height: 46px; }
+  min-height: 36px; }
 
 window headerbar.default-decoration button.titlebutton,
 window .titlebar.default-decoration button.titlebutton {
