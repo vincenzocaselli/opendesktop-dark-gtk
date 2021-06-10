@@ -1,5 +1,8 @@
 OpenDesktop-Dark-GTK is a theme for GTK 3, GTK 2 and Gnome-Shell based on Breeze-Dark GTK theme from /usr/share/themes/Breeze-Dark
 
-Download and unzip into ~/.themes (create .themes folder if it doesn't exists in your home); then apply it depending on your system (e.g. on Ubuntu use Tweaks / KDE Plasma users may go to System Settings,  Appearance, Application Style, Configure GNOME/GTK Application Style..., Get New GNOME/GTK Application Style..., search for opendesktop-dark-gtk and apply it) 
+Best results with   OpenDesktop-Icons   -   https://www.gnome-look.org/p/1498619
+
+KDE Plasma users may go to System Settings,  Appearance, Application Style, Configure GNOME/GTK Application Style..., Get New GNOME/GTK Application Style..., search for opendesktop-dark-gtk and apply it.
+Non-KDE Plasma users may download and unzip the compressed file into ~/.themes (create .themes folder if it doesn't exists in your home); then apply it depending on your system (e.g. on Ubuntu use Tweaks) 
 
 (designed for "OpenDesktop-Dark" KDE Plasma Global theme - https://www.pling.com/p/1484021 )
