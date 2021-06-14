@@ -3612,7 +3612,8 @@ menubar > menuitem menu menu,
 .csd .menu, 
 .csd .context-menu { 
 
-  border: 1px solid @borders;}
+  border: 1px solid @borders;
+}
 
 menu menuitem, 
 .menu menuitem, 
@@ -8237,7 +8238,7 @@ widget base background color on backdrop windows */
 @define-color theme_unfocused_bg_color #404040; /*  ???  */
 /*
 widgets main borders color */
-@define-color borders shade(#5294E2,0.92);/*#c5c9cc;*//*#afada8;*//*#a7a5a0;*//*#cdcdcd;*/
+@define-color borders shade(#a1a1a1,0.8);/*#c5c9cc;*//*#afada8;*//*#a7a5a0;*//*#cdcdcd;*/
 @define-color borders_light #fbfafa;
 @define-color borders_dark #000000;
 /*
