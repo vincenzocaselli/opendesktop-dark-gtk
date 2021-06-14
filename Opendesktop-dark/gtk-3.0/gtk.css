@@ -42,7 +42,10 @@
 
 *:disabled { 
 
--gtk-icon-effect: dim; }
+  -gtk-icon-effect: dim; 
+  color: inherit;
+  opacity: 0.6;
+}
 
 .gtkstyle-fallback { 
 
