@@ -8213,18 +8213,18 @@ text color for entries, views and content in general */
 @define-color theme_fg_color #404040;
 /*
 widget base background color */
-@define-color theme_bg_color #5c5c5c;  /*column headers, toggle buttons off =92,92,92 */
+@define-color theme_bg_color #404040;  /*column headers, toggle buttons off =92,92,92 */
 @define-color osd_bg_color #353535;
  /*
 text widgets and the like base background color */
 /* bg right panel nemo */
-@define-color theme_base_color #5c5c5c;/* background nemo main panel, spacefm side+mail panel */
+@define-color theme_base_color #404040;/* background nemo main panel, spacefm side+mail panel */
 /*
 base background color of insensitive widgets */
-@define-color insensitive_bg_color #5c5c5c;/*  ???  */
+@define-color insensitive_bg_color #404040;/*  ???  */
 /*
 widget base background color on backdrop windows */
-@define-color theme_unfocused_bg_color #5c5c5c; /*  ???  */
+@define-color theme_unfocused_bg_color #404040; /*  ???  */
 /*
 widgets main borders color */
 @define-color borders shade(#5294E2,0.92);/*#c5c9cc;*//*#afada8;*//*#a7a5a0;*//*#cdcdcd;*/
