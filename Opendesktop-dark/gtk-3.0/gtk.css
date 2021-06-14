@@ -8237,26 +8237,14 @@ text widgets and the like base background color */
 /* bg right panel nemo */
 @define-color theme_base_color #5c5c5c;/* background nemo main panel, spacefm side+mail panel */
 /*
-base background color of selections @color_600 */
-@define-color theme_selected_bg_color @color_600;
-/*
 base background color of insensitive widgets */
 @define-color insensitive_bg_color #5c5c5c;/*  ???  */
-/*
-text foreground color of insensitive widgets */
-@define-color insensitive_fg_color @disabled_text_color;
 /*
 insensitive text widgets and the like base background color */
 @define-color insensitive_base_color #5c5c5c; /*  ???  */
 /*
-widget text/foreground color on backdrop windows */
-@define-color theme_unfocused_fg_color @disabled_text_color;
-/*
 widget base background color on backdrop windows */
 @define-color theme_unfocused_bg_color #5c5c5c; /*  ???  */
-/*
-base background color of selections on backdrop windows */
-@define-color theme_unfocused_selected_bg_color @color_600;
 /*
 widgets main borders color */
 @define-color borders shade(#5294E2,0.92);/*#c5c9cc;*//*#afada8;*//*#a7a5a0;*//*#cdcdcd;*/
@@ -8267,21 +8255,10 @@ these are pretty self explicative */
 @define-color drop_color #4e9a06;
 @define-color color_destructive #e54939;/*#b25e5e;*/
 @define-color warning_color #e8343b;
-@define-color error_color @color_destructive;
-@define-color success_color #33d17a;
 /*
 these colors are exported for the window manager and shouldn't be used in applications,
 read if you used those and something break with a version upgrade you're on your own... */
-@define-color wm_title shade(#363636, 1.8);
-@define-color wm_unfocused_title @disabled_text_color;
-@define-color wm_highlight rgba(255, 255, 255, 0.8);
 @define-color paned_separator_wide_bg #515658;
-@define-color wm_button_hover_color_a shade(#515658, 1.3);
-@define-color wm_button_hover_color_b #515658;
-@define-color wm_button_active_color_a shade(#515658, 0.96);
-@define-color wm_button_active_color_b shade(#515658, 0.97);
-@define-color wm_button_active_color_c shade(#515658, 0.98);
-@define-color content_view_bg #515658;
 
 /***************************************************************************/
 
