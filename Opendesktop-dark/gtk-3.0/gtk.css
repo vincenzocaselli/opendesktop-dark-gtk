@@ -657,11 +657,12 @@ treeview entry:focus {
 
 /*(((((((((( BUTTONS ))))))))))*/
 
+/*
 @keyframes needs_attention { from { 
 
  background-image: -gtk-gradient(radial, center center, 0, center center, 0.01, to(@color_600), to(transparent)); }
   to { background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(@color_600), to(transparent)); } }
-
+*/
 
 notebook > header > tabs > arrow, 
 button.sidebar-button, 
@@ -1780,7 +1781,7 @@ button.font > box > box > label {
 .primary-toolbar button { 
 
   -gtk-icon-shadow: none; }
-
+/*
 button.circular { 
 
   border-radius: 9999px; 
@@ -1829,13 +1830,13 @@ button.circular:hover:not(:checked):not(:active):not(:disabled):not(:backdrop) {
   box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.07);
   background-image: linear-gradient(to top, #515658, #f8f8f7 1px), linear-gradient(to top, shade(@borders,0.9) 25%, @borders 50%); 
   border-color: transparent; }
-
+*/
 .stack-switcher > button.needs-attention > label, 
 .stack-switcher > button.needs-attention > image, 
 stacksidebar row.needs-attention > label { 
 
   animation: needs_attention 150ms ease-in; 
-  background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(@color_600), to(transparent)), -gtk-gradient(radial, center center, 0, center center, 0.5, to(rgba(255, 255, 255, 0.769231)), to(transparent)); 
+  /*background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(@color_600), to(transparent)), -gtk-gradient(radial, center center, 0, center center, 0.5, to(rgba(255, 255, 255, 0.769231)), to(transparent));*/ 
   background-size: 6px 6px, 6px 6px; 
   background-repeat: no-repeat; 
   background-position: right 3px, right 4px; }
@@ -5805,7 +5806,7 @@ scrolledwindow viewport.frame {
 
 scrolledwindow overshoot.top { 
 
-  background-image: -gtk-gradient(radial, center top, 0, center top, 0.5, to(#b6aea5), to(rgba(182, 174, 165, 0))), -gtk-gradient(radial, center top, 0, center top, 0.6, from(rgba(46, 52, 54, 0.07)), to(rgba(46, 52, 54, 0))); 
+  /*background-image: -gtk-gradient(radial, center top, 0, center top, 0.5, to(#b6aea5), to(rgba(182, 174, 165, 0))), -gtk-gradient(radial, center top, 0, center top, 0.6, from(rgba(46, 52, 54, 0.07)), to(rgba(46, 52, 54, 0))); */
   background-size: 100% 5%, 100% 100%; 
   background-repeat: no-repeat; 
   background-position: center top; 
@@ -5815,7 +5816,7 @@ scrolledwindow overshoot.top {
 
 scrolledwindow overshoot.bottom { 
 
-  background-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(#b6aea5), to(rgba(182, 174, 165, 0))), -gtk-gradient(radial, center bottom, 0, center bottom, 0.6, from(rgba(46, 52, 54, 0.07)), to(rgba(46, 52, 54, 0))); 
+  /*background-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(#b6aea5), to(rgba(182, 174, 165, 0))), -gtk-gradient(radial, center bottom, 0, center bottom, 0.6, from(rgba(46, 52, 54, 0.07)), to(rgba(46, 52, 54, 0))); */ 
   background-size: 100% 5%, 100% 100%; 
   background-repeat: no-repeat; 
   background-position: center bottom; 
@@ -5825,7 +5826,7 @@ scrolledwindow overshoot.bottom {
 
 scrolledwindow overshoot.left { 
 
-  background-image: -gtk-gradient(radial, left center, 0, left center, 0.5, to(#b6aea5), to(rgba(182, 174, 165, 0))), -gtk-gradient(radial, left center, 0, left center, 0.6, from(rgba(46, 52, 54, 0.07)), to(rgba(46, 52, 54, 0))); 
+  /*background-image: -gtk-gradient(radial, left center, 0, left center, 0.5, to(#b6aea5), to(rgba(182, 174, 165, 0))), -gtk-gradient(radial, left center, 0, left center, 0.6, from(rgba(46, 52, 54, 0.07)), to(rgba(46, 52, 54, 0))); */ 
   background-size: 5% 100%, 100% 100%; 
   background-repeat: no-repeat; 
   background-position: left center; 
@@ -5835,7 +5836,7 @@ scrolledwindow overshoot.left {
 
 scrolledwindow overshoot.right { 
 
-  background-image: -gtk-gradient(radial, right center, 0, right center, 0.5, to(#b6aea5), to(rgba(182, 174, 165, 0))), -gtk-gradient(radial, right center, 0, right center, 0.6, from(rgba(46, 52, 54, 0.07)), to(rgba(46, 52, 54, 0))); 
+  /*background-image: -gtk-gradient(radial, right center, 0, right center, 0.5, to(#b6aea5), to(rgba(182, 174, 165, 0))), -gtk-gradient(radial, right center, 0, right center, 0.6, from(rgba(46, 52, 54, 0.07)), to(rgba(46, 52, 54, 0))); */ 
   background-size: 5% 100%, 100% 100%; 
   background-repeat: no-repeat; 
   background-position: right center; 
@@ -7466,8 +7467,8 @@ tooltip.background.csd {
   
 .nautilus-window.csd.background{
 
-  background-image: image(@sidebar_bg_color);
-  background-color: transparent;
+  /*background-image: image(@sidebar_bg_color);*/
+  background-color: @sidebar_bg_color;
   border-radius: 0 0 6px 6px;}
   
 .nautilus-window placessidebar.sidebar list {
@@ -7524,13 +7525,13 @@ window.background.csd > box.vertical > scrolledwindow > iconview.view.content-vi
 
 filechooser placessidebar.sidebar{
 
-  background-image: linear-gradient(to top, transparent,alpha(@text_color,0.1),alpha(@text_color,0.2), alpha(@text_color,0.1),transparent);
+  /*background-image: linear-gradient(to top, transparent,alpha(@text_color,0.1),alpha(@text_color,0.2), alpha(@text_color,0.1),transparent);*/
   background-color:@sidebar_bg_color;
   border-radius: 0;} 
 
 .nautilus-window placessidebar.sidebar{
 
-  background-image: linear-gradient(to top, transparent,alpha(@text_color,0.1),alpha(@text_color,0.2), alpha(@text_color,0.1),transparent);
+  /*background-image: linear-gradient(to top, transparent,alpha(@text_color,0.1),alpha(@text_color,0.2), alpha(@text_color,0.1),transparent);*/
   border-radius: 0 0 6px 6px;} 
   
 .nautilus-window notebook{
@@ -7607,7 +7608,7 @@ statusbar{
 .tweak-categories{
 
   border-radius: 0 0 0 6px;
-  background-image: linear-gradient(to top, transparent,alpha(@text_color,0.1),alpha(@text_color,0.2), alpha(@text_color,0.1),transparent);
+  /*background-image: linear-gradient(to top, transparent,alpha(@text_color,0.1),alpha(@text_color,0.2), alpha(@text_color,0.1),transparent);*/
   background-color:@sidebar_bg_color;
   /*background-image: linear-gradient(to top, rgba(255,255,255,0.0),rgba(20,20,20,0.08),rgba(15,15,15,0.12),rgba(20,20,20,0.08),rgba(240,240,240,0)); 
   background-color:rgba(227,230,234,1);*/}
@@ -7727,30 +7728,10 @@ messagedialog.csd.background {
 popover.emoji-picker {
   
   border-radius: 6px;}
-/*filechooser actionbar entry, 
-filechooser actionbar button,
-filechooser actionbar combobox button.combo{
-
-  border: 1px solid;
-  color: @headerbar_text_color;
-  text-shadow:   -0.1px  0px alpha(@headerbar_text_color, 0.20),
-				  0.1px  0px alpha(@headerbar_text_color, 0.20),
-				  0px  0.1px alpha(@headerbar_text_color, 0.20),
-				  0px -0.1px alpha(@headerbar_text_color, 0.20),
-				  0px -1px alpha(@headerbar_text_shadow_color, 0.12),
-				  0px 1px alpha(@headerbar_text_shadow_color, 0.12),
-				  1px 0px alpha(@headerbar_text_shadow_color, 0.12),
-				 -1px 0px alpha(@headerbar_text_shadow_color, 0.12);
-  border-color: shade(@headerbar_color,0.9); 
-  border-bottom-color: shade(@headerbar_color,0.8);
-  -gtk-icon-shadow: 0 1px alpha(shade(@headerbar_color,1.4),0.76);
-  box-shadow: inset 0 1px shade(@headerbar_color,1.3), 0 1px 2px rgba(0, 0, 0, 0.07);
-  background-image:linear-gradient(to top, alpha(shade(@headerbar_color,1.05),1), alpha(shade(@headerbar_color,1.2),1));} */
-
-/*(((( support for nemo filemanager ))))*/
 
 
 .nemo-window {
+    background-color:@sidebar_bg_color; /* nemo bg sidebar */
 	box-shadow: 0px 2px 6px 6px rgba(122,163,214,0.8),0 0 4px 4px rgba(197,215,237,0.8);
 }
 
@@ -7950,9 +7931,11 @@ filechooser actionbar combobox button.combo{
   margin-bottom:6px;}
 
 .nemo-window .sidebar{
- 
+ /*
   background-image: linear-gradient(to top, transparent,alpha(@text_color,0.1),alpha(@text_color,0.2), alpha(@text_color,0.1),transparent);
-  background-color:shade(@sidebar_bg_color,1.02);}
+  background-color:shade(@sidebar_bg_color,1.02);
+    */
+}
 
 .nemo-window .nemo-window-pane widget.entry {
   padding-top: 0px;
@@ -7961,7 +7944,8 @@ filechooser actionbar combobox button.combo{
   border-radius: 3px;
   color: @text_color;
   border-color: @color_600;
-  background-color: @insensitive_base_color; }
+  background-color: @sidebar_bg_color; /* =60,60,60 dark grey */
+}
 
 .nemo-window .nemo-inactive-pane .view,
 .nemo-window .nemo-inactive-pane iconview {
@@ -8201,7 +8185,7 @@ viewswitcherbar > actionbar {
 @define-color bg_gradient_d #1e1e1e;
 @define-color shadows_light #ffffff;
 @define-color shadows_dark #000000;
-@define-color sidebar_bg_color rgba(48,48,48,0.96);
+@define-color sidebar_bg_color rgba(60,60,60,1.0); /* sidebar Nautilus, Tweaks, sub-menu bg  =3c3c3c dark grey */
 /***************************************************************************/
 /*(((((((( defining the colors of the windowbuttons )))))*/
 /* these definitions are not used by this theme*/
@@ -8229,8 +8213,8 @@ text color for entries, views and content in general */
 @define-color theme_fg_color #404040;
 /*
 widget base background color */
-@define-color base_bg_color rgba(60,60,60,0.98);
-@define-color theme_bg_color #5c5c5c;  /*column headers, toggle buttons off  */
+@define-color base_bg_color rgba(92,92,92,1.00); /* tweaks main panel bg =#5c5c5c */
+@define-color theme_bg_color #5c5c5c;  /*column headers, toggle buttons off =92,92,92 */
 @define-color osd_bg_color #353535;
  /*
 text widgets and the like base background color */
@@ -8239,9 +8223,6 @@ text widgets and the like base background color */
 /*
 base background color of insensitive widgets */
 @define-color insensitive_bg_color #5c5c5c;/*  ???  */
-/*
-insensitive text widgets and the like base background color */
-@define-color insensitive_base_color #5c5c5c; /*  ???  */
 /*
 widget base background color on backdrop windows */
 @define-color theme_unfocused_bg_color #5c5c5c; /*  ???  */
