@@ -8230,56 +8230,38 @@ text color for entries, views and content in general */
 /*
 widget base background color */
 @define-color base_bg_color rgba(60,60,60,0.98);
-@define-color theme_bg_color #5c5c5c;
+@define-color theme_bg_color #5c5c5c;  /*column headers, toggle buttons off  */
 @define-color osd_bg_color #353535;
  /*
 text widgets and the like base background color */
 /* bg right panel nemo */
-@define-color theme_base_color #5c5c5c;/*#e9e5e0;*//*#ffffff;*/
+@define-color theme_base_color #5c5c5c;/* background nemo main panel, spacefm side+mail panel */
 /*
 base background color of selections @color_600 */
 @define-color theme_selected_bg_color @color_600;
-
-/*text/foreground color of selections */
-@define-color theme_selected_fg_color #ffffff;
 /*
 base background color of insensitive widgets */
-@define-color insensitive_bg_color #5c5c5c;/*#faf9f8;*/
+@define-color insensitive_bg_color #5c5c5c;/*  ???  */
 /*
 text foreground color of insensitive widgets */
 @define-color insensitive_fg_color @disabled_text_color;
 /*
 insensitive text widgets and the like base background color */
-@define-color insensitive_base_color #5c5c5c;
+@define-color insensitive_base_color #5c5c5c; /*  ???  */
 /*
 widget text/foreground color on backdrop windows */
 @define-color theme_unfocused_fg_color @disabled_text_color;
 /*
-text color for entries, views and content in general on backdrop windows */
-@define-color theme_unfocused_text_color #808080;
-/*
 widget base background color on backdrop windows */
-@define-color theme_unfocused_bg_color #5c5c5c;
-/*
-text widgets and the like base background color on backdrop windows */
-@define-color theme_unfocused_base_color #fcfcfc;
+@define-color theme_unfocused_bg_color #5c5c5c; /*  ???  */
 /*
 base background color of selections on backdrop windows */
 @define-color theme_unfocused_selected_bg_color @color_600;
-/*
-text/foreground color of selections on backdrop windows */
-@define-color theme_unfocused_selected_fg_color #5c5c5c;
-/*
-insensitive color on backdrop windows*/
-@define-color unfocused_insensitive_color #5c5c5c;
 /*
 widgets main borders color */
 @define-color borders shade(#5294E2,0.92);/*#c5c9cc;*//*#afada8;*//*#a7a5a0;*//*#cdcdcd;*/
 @define-color borders_light #fbfafa;
 @define-color borders_dark #000000;
-/*
-widgets main borders color on backdrop windows */
-@define-color unfocused_borders #6c6c6c;
 /*
 these are pretty self explicative */
 @define-color drop_color #4e9a06;
