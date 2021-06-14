@@ -28,7 +28,7 @@
 		  0px 1px alpha(@text_shadow_color, 0.12),
 	          1px 0px alpha(@text_shadow_color, 0.12),
 	         -1px 0px alpha(@text_shadow_color, 0.12);
-  background-color: @base_bg_color; }
+  background-color: @theme_bg_color; }
 
 .popup.background {
 
@@ -55,7 +55,7 @@
 		  0px 1px alpha(@text_shadow_color, 0.12),
 	          1px 0px alpha(@text_shadow_color, 0.12),
 	         -1px 0px alpha(@text_shadow_color, 0.12);
-  background-color: @base_bg_color;}
+  background-color: @theme_bg_color;}
 
 .gtkstyle-fallback:hover { 
 
@@ -3325,7 +3325,7 @@ window.devel headerbar.titlebar:not(.selection-mode) label {
 treeview.view { 
 
   border-left-color: #979a9b; 
-  border-top-color: @base_bg_color; }
+  border-top-color: @theme_bg_color; }
 
 * { -GtkTreeView-horizontal-separator: 4; 
 -GtkTreeView-grid-line-width: 1; 
@@ -3823,7 +3823,7 @@ notebook > header {
   padding-top:0px;
  /* border: 1px solid alpha(shade(@headerbar_color,0.88),0.7);
   border-style: none none solid none;*/
-  background-color: @base_bg_color;/*shade(@headerbar_color,1.04);*/}
+  background-color: @theme_bg_color;/*shade(@headerbar_color,1.04);*/}
 
 notebook > header.top > tabs { 
  
@@ -6009,7 +6009,7 @@ messagedialog .titlebar {
 
 messagedialog.csd.background { 
 
-  background-image: image(@base_bg_color);
+  background-image: image(@theme_bg_color);
   border-bottom-left-radius: 6px;
   border-bottom-right-radius:6px;}
 
@@ -7672,7 +7672,7 @@ statusbar{
 
 list#AutostartListBoxTweakGroup.tweak-group-startup row.tweak-startup {
 
- background-image: image(@base_bg_color);
+ background-image: image(@theme_bg_color);
  background-color: transparent;}  
 
 .background.csd actionbar {
@@ -8213,7 +8213,6 @@ text color for entries, views and content in general */
 @define-color theme_fg_color #404040;
 /*
 widget base background color */
-@define-color base_bg_color rgba(92,92,92,1.00); /* tweaks main panel bg =#5c5c5c */
 @define-color theme_bg_color #5c5c5c;  /*column headers, toggle buttons off =92,92,92 */
 @define-color osd_bg_color #353535;
  /*
