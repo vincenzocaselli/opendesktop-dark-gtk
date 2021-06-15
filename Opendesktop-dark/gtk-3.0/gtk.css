@@ -6633,7 +6633,7 @@ decoration:backdrop {
 
   border-radius: 6px; 
   border-width: 0px; 
-  box-shadow: none;
+  box-shadow: 0px 2px 6px 6px rgba(0,0,0,0.35),0 0 1px 1px rgba(0,0,0,0.1);
   margin: 4px; 
 }
 
@@ -6649,7 +6649,7 @@ csd decoration:backdrop {
 
   border-radius: 6px;
   border-width: 0px;
-  box-shadow: none;
+  box-shadow: 0px 2px 6px 6px rgba(0,0,0,0.35),0 0 1px 1px rgba(0,0,0,0.1);
   margin: 4px;
 }
 .maximized decoration, 
