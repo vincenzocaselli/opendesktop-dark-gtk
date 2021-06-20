@@ -6666,10 +6666,22 @@ csd decoration:backdrop {
 
   border-radius: 6px;}
 
+/* bright glowing border for 
+   Nemo, Caja, SpaceFm, Konsole, VirtualBox, Chrome, ... 
+*/
 .ssd decoration { 
+
+  border-radius: 6px; 
+  border-width: 0px; 
+  box-shadow: 0px 2px 6px 6px rgba(122,163,214,0.8),0 0 4px 4px rgba(197,215,237,0.8);
+  margin: 4px; 
+}
+
+.ssd decoration:backdrop { 
 
   box-shadow: 0 2px 6px 6px rgba(0,0,0,0.35);
   margin:0px;}
+
 
 .csd.popup decoration { 
 
