@@ -6673,7 +6673,7 @@ csd decoration:backdrop {
 
   border-radius: 6px; 
   border-width: 0px; 
-  box-shadow: 0px 2px 6px 6px rgba(122,163,214,0.8),0 0 4px 4px rgba(197,215,237,0.8);
+  box-shadow: 0px 4px 6px 6px rgba(122,163,214,0.8),0 0 6px 6px rgba(197,215,237,0.8);
   margin: 4px; 
 }
 
@@ -6702,9 +6702,12 @@ messagedialog.csd decoration {
 
   border: 1px solid @headerbar_color;
   background-color: transparent;
-  margin: 0;
   padding: 2px;
-  /*box-shadow: 0 6px 6px rgba(0, 0, 0, 0.26);*/}
+  border-radius: 6px; 
+  border-width: 0px; 
+  box-shadow: 0px 2px 6px 6px rgba(122,163,214,0.8),0 0 4px 4px rgba(197,215,237,0.8);
+  margin: 4px; 
+}
 
 .view:selected:focus, 
 .view:selected, 
